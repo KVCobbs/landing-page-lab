@@ -1,11 +1,15 @@
-* {
-    background-color: white;
+
+html {
+    background-color: rgb(165,134,134);
     display: block;
-    border: 5px solid red;
 }
 
 header {
-    background-color: pink;
+    background-color: white;
+    display: block;
+    margin-left: -10px;
+    margin-bottom: -30px;
+    margin-top: -60px;
 }
 
 h1 {
@@ -22,8 +26,15 @@ h1 {
 
 .todo_list{
     display: inline-block;
-    color: red;
+    height: 700px;
+    width: 200px;
+    background-color: teal;
     font-size: 20px;
-    border-collapse: collapse;
     float: left;
+    
+}
+
+article {
+    font-size: 30px;
+    background-color: white;
 }
