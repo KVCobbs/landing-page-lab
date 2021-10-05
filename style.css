@@ -25,15 +25,14 @@ h1 {
     color: black;
 }
 
-nav {
-    
+body {
+    margin-top: 0;
 }
- 
 
 
 .todo_list{
     display: block;
-    height: 900px;
+    height: 890px;
     width: 200px;
     background-color: teal;
     font-size: 20px;
@@ -50,6 +49,21 @@ article {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    padding-top: 40px;
+}
+
+img {
+    display: inline-block;
+    height: 305px;
+    width: 405px;
+    padding-left: 250px;
+}
+
+figcaption {
+    display: inherit;
+    height: 305px;
+    width: 405px;
+    padding: inherit;
 }
